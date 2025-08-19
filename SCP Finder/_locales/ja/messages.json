@@ -6,9 +6,9 @@
     "message": "番号を入力してSCP記事を素早く開けます。"
   },
   "find_button": {
-    "message": "SCPへ移動"
+    "message": "ENのSCPに行く"
   },
   "scp_input_placeholder": {
-    "message": "SCP番号"
+    "message": "ESのSCPに行く"
   }
 }

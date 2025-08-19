@@ -10,5 +10,11 @@
   },
   "scp_input_placeholder": {
     "message": "SCP Number"
+  },
+  "find_other_lang_1_button": {
+  	"message": "Go to ES SCP"
+  },
+  "find_other_lang_2_button": {
+  	"message": "Go to JP SCP"
   }
 }
