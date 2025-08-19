@@ -14,11 +14,11 @@ findButton.textContent = chrome.i18n.getMessage('find_button');
 scpInput.focus();
 
 if (uiLang.startsWith('ja')) {
-	wiki_branch = "http://www.scp-jp.wikidot.com/scp-"
+	wiki_branch = "http://scp-jp.wikidot.com/scp-"
 } else if (uiLang.startsWith('es')) {
 	wiki_branch = 'https://lafundacionscp.wikidot.com/scp-';
 } else {
-	wiki_branch = "http://www.scp-wiki.wikidot.com/scp-"
+	wiki_branch = "http://scp-wiki.wikidot.com/scp-"
 }
 
 function fixInputNumber(input) {
