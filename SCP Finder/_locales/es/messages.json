@@ -1,0 +1,14 @@
+{
+  "ext_name": {
+    "message": "Buscador SCP"
+  },
+  "ext_desc": {
+    "message": "Abre rápidamente artículos SCP por número."
+  },
+  "find_button": {
+    "message": "Ir a SCP"
+  },
+  "scp_input_placeholder": {
+    "message": "Número SCP"
+  }
+}

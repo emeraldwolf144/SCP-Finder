@@ -1,0 +1,14 @@
+{
+  "ext_name": {
+    "message": "SCPファインダー"
+  },
+  "ext_desc": {
+    "message": "番号を入力してSCP記事を素早く開けます。"
+  },
+  "find_button": {
+    "message": "SCPへ移動"
+  },
+  "scp_input_placeholder": {
+    "message": "SCP番号"
+  }
+}

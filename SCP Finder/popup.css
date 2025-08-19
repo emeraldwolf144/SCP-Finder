@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('fonts/Nunito-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MozillaText';
+  src: url('fonts/MozillaText-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+html {
+	width: 400px;
+	height: auto;
+}
+body {
+  background-color: #383838;
+  font-family: 'MozillaText', sans-serif;
+}
+h1 {
+	color: LightGray;
+	font-weight: 800;
+}
+
+/* From Uiverse.io by Madflows (submit button) */ 
+.button {
+ font-family: 'MozillaText', sans-serif;
+ font-weight: 900;
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #303030;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 25px;
+    box-shadow:
+    0px 0px 10px rgba(0, 0, 0, 0.6),              /* subtle outer glow */
+    0px 4px 6px rgba(0, 0, 0, 0.4),                /* drop shadow */
+    inset 2px 2px 4px rgba(255, 255, 255, 0.05),   /* soft light from top-left */
+    inset -2px -2px 4px rgba(0, 0, 0, 0.4);        /* inner depth from bottom-right */
+  transition: 0.2s;
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button:active {
+ box-shadow: none;
+}
+
+
+/* From Uiverse.io by satyamchaudharydev (Input) */ 
+.form {
+ float:left;
+ --width-of-input: 200px;
+ --border-height: 1px;
+ --border-before-color: rgba(221, 221, 221, 0.39);
+ --border-after-color: rgb(30, 30, 30);
+ --input-hovered-color: rgba(10, 10, 10, 0.12);
+ position: relative;
+ width: var(--width-of-input);
+ gap: 25px;
+}
+/* styling of Input */
+.input {
+ font-family: 'MozillaText', sans-serif;
+ font-weight: 600;
+ color: #fff;
+ font-size: 0.9rem;
+ background-color: transparent;
+ width: 100%;
+ box-sizing: border-box;
+ padding-inline: 0.5em;
+ padding-block: 0.7em;
+ border: none;
+ border-bottom: var(--border-height) solid var(--border-before-color);
+}
+/* styling of animated border */
+.input-border {
+ position: absolute;
+ background: var(--border-after-color);
+ width: 0%;
+ height: 2px;
+ bottom: 0;
+ left: 0;
+ transition: 0.3s;
+}
+/* Hover on Input */
+input:hover {
+ background: var(--input-hovered-color);
+}
+
+ input:focus {
+ outline: none;
+}
+/* here is code of animated border */
+input:focus ~ .input-border {
+ width: 100%;
+}
+
