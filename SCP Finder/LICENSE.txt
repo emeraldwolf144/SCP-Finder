@@ -1,5 +1,5 @@
 This extension, "SCP Finder", is based on content from the SCP Foundation Wiki (http://scp-wiki.wikidot.com), which is licensed under the Creative Commons Attribution-ShareAlike 3.0 License (CC BY-SA 3.0).
-
+"SCP Finder" is licensed under the same license as the SCP Foundation is lincened under a ShareAlike License.
 
 SCP content is written by multiple authors and can be found at:
 Original SCP content: http://scp-wiki.wikidot.com  
